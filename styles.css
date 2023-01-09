@@ -25,10 +25,15 @@
 .maintitle {
     display: flex;
     position: fixed;
-    top: 30%;
+    top: 13%;
     left: 43%;
     font-size: 5vh;
     font-weight: 900;
+    transition: 0.5s;
+}
+
+.maintitle:hover {
+    transform: scale(1.2);
 }
 
 /* HORIZON SECTION */
