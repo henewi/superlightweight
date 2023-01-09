@@ -44,7 +44,8 @@
     flex-direction: column;
     position: fixed;
     top: 37%;
-    left: 40%;
+    left: 40.5%;
+    font-size: 5vh;
 }
 
 .contentschild {
