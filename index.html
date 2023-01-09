@@ -8,6 +8,69 @@
     <title>Document</title>
 </head>
 <body>
+    
+<!-- CURSOR PARRALAX SECTION -->
+
+<section>
+  
+    <div id="yourimg1" class="card rounded is-out">
+      <div class="card__overlay"></div>
+          <div class="card__heading">
+        <img src="yourimage1.jpg">  <!--Add your image name-->
+        <span class="super">Hover Me</span>
+              <h2>Your Image</h2>
+          </div>
+    </div>
+  
+    <div id="yourimg2" class="card rounded is-out">
+      <div class="card__overlay"></div>
+          <div class="card__heading">
+        <img src="yourimage2.jpg"> <!--Add your image name-->
+        <span class="super">Hover Me</span>
+              <h2>Your Image</h2>
+          </div>
+    </div>
+  </section>
+      
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script id="rendered-js">
+  
+  ;(function ($) {
+   
+    $.fn.transformHeroes = function () {
+   
+      var perspective = '500px',
+      delta = 20,
+      width = this.width(),
+      height = this.height(),
+      midWidth = width / 2,
+      midHeight = height / 2;
+  
+      this.on({
+        mousemove: function (e) {
+          var pos = $(this).offset(),
+          cursPosX = e.pageX - pos.left,
+          cursPosY = e.pageY - pos.top,
+          cursCenterX = midWidth - cursPosX,
+          cursCenterY = midHeight - cursPosY;
+  
+          $(this).css('transform', 'perspective(' + perspective + ') rotateX(' + cursCenterY / delta + 'deg) rotateY(' + -(cursCenterX / delta) + 'deg)');
+          $(this).removeClass('is-out');
+        },
+        mouseleave: function () {
+          $(this).addClass('is-out');
+        } });
+  
+      return this;
+    };
+  })(jQuery);
+  
+  $('.card').transformHeroes();
+  
+  </script>  
+
+<!-- STARS SECTION  -->
     <div id="stars"></div>
     <div id="stars2"></div>
     <div id="stars3"></div>
