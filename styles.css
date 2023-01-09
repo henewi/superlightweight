@@ -3,6 +3,16 @@
     margin: 0;
 }
 
+/* TITLE SECTIO */
+
+.maintitle {
+    display: flex;
+    position: fixed;
+    top: 30%;
+    left: 43%;
+    font-size: 5vh;
+    font-weight: 900;
+}
 
 /* HORIZON SECTION */
 
