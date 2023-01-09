@@ -4,6 +4,22 @@
 }
 
 
+/* HORIZON SECTION */
+
+.horizon {
+    position: fixed;
+    margin: 0;
+    top: 70vh;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+}
+
+#horizonimg {
+    width: 100vw;
+    height: auto;
+}
+
 /* MOUSE PARRALAX SECTION */
 
 *{
@@ -72,7 +88,7 @@
   }
         
   #purpleplanet {
-    width: 6.5vw;
+    width: 7vw;
     height: auto;
     left: 10vw;
     top: 5vw;
@@ -81,9 +97,9 @@
   }
 
   #earthplanet {
-    width: 6vw;
+    width: 6.5vw;
     height: auto;
-    top: 43vh;
+    top: 38vh;
     left: 15vw;
     -webkit-filter: drop-shadow(0px 0px 80px #00ffdd);
     filter: drop-shadow(0px 0px 80px #00ffd5);
@@ -92,8 +108,8 @@
   #blueplanet {
     width: 7vw;
     height: auto;
-    left: 12vw;
-    top: 78vh;
+    left: 10vw;
+    top: 72vh;
     -webkit-filter: drop-shadow(0px 0px 80px #0011ff);
     filter: drop-shadow(0px 0px 80px #003cff);
   }
@@ -108,12 +124,21 @@
   }
 
   #jupiterplanet {
-    width: 7vw;
+    width: 12vw;
     height: auto;
-    left: 76vw;
-    top: 39vh;
+    left: 70vw;
+    top: 65vh;
     -webkit-filter: drop-shadow(0px 0px 80px #ffbb00);
     filter: drop-shadow(0px 0px 80px #ff9900);
+  }
+
+  #pinkplanet {
+    width: 5.5vw;
+    height: auto;
+    left: 71vw;
+    top: 37vh;
+    -webkit-filter: drop-shadow(0px 0px 80px #ff00d4);
+    filter: drop-shadow(0px 0px 80px #ff0040);
   }
 
 /* STARS SECTION */
