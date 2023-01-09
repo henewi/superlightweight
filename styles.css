@@ -6,106 +6,120 @@
 
 /* MOUSE PARRALAX SECTION */
 
-body {
-    font-family: 'Montserrat', sans-serif;
-    background: #000210;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
-  section {
+  
+  .object {
+    z-index: 2  ;
+  }
+
+  body{
+    font-family: "Segoe UI", sans-serif;
+    background: url(bg.png)no-repeat;
+    background-size: cover;
     height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
   }
-  @media (min-width: 992px) {
-    section {
-      flex-wrap: nowrap;
-    }
-  }
-  .card {
+  
+  .container{
     position: relative;
-    width: 270px;
-    height: 350px;
-    margin: 50px;
-    background: #CCC;
-    transform: rotateX(0) rotateY(0);
-    transform-style: preserve-3d;
-    transition-duration: 0.1s;
-    transition-timing-function: ease !important;
-    
-  }
-  .card:nth-child(1){
-    box-shadow: 0px 65px 100px rgba(154, 24, 208, 0.3);
-  }
-  .card:nth-child(2){
-    box-shadow: 0px 65px 100px rgba(255, 51, 108, 0.3);
-  }
-  .card__overlay {
-    position: absolute;
-    left: 0;
-    top: 0;
     width: 100%;
     height: 100%;
-    margin: 50px;
-    background-size: cover;
-    mix-blend-mode: lighten;
-    
-  }
-  .card__heading {
-     margin-top: 15%;
-      align-items: center;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-  }
-  .card img{
-    height: 180px;
-    width: 180px;
-    border-radius: 50%;
-    transform: translateZ(120px);
-    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.06), -5px -5px 7px rgba(210, 210, 210, 0.22);
-  }
-  .card:hover .card__heading img{
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, 
-                rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,  
-                rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
   }
   
-  .card__heading .super {
-    color: #89F8FF;
-    display: inline-block;
-    margin-top: 20px;
+  .container img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: contain;
+  }
+  
+  .container h2{
+    z-index: 1;
+    position: relative;
+    color: rgba(255, 255, 255, 0);
+    font-size: 90px;
     text-transform: uppercase;
-    font-size: 10px;
-    transform: translateZ(70px);
-  }
-  .card__heading h2 {
-    color: #ffffff;
-    margin: 0;
-    transform: translateZ(70px);
-  }
-  .card.rounded, .card.rounded .card__overlay {
-    border-radius: 8px;
-  }
-  .card.is-out {
-    transform: rotateX(0) rotateY(0) !important;
-    transition-duration: .7s;
+    font-weight: 900;
+    letter-spacing: 32px;
+    line-height: 60px;
   }
   
-  #yourimg1 {
-    background: linear-gradient(180deg, rgba(1, 217, 178, 0.9) 0%, rgba(164, 0, 222, 0.9) 100%), url(WonderWoman.jpg);
-    background-size: cover;
-  
-  }
-  #yourimg2 {
-    background: linear-gradient(180deg, rgba(228, 0, 160, 0.9) 0%, rgba(255, 14, 71, 0.9) 100%), url(ironman.jpg);
-    background-size: cover;
+  .container h2 span{
+    font-size: 48px;
+    font-weight: 500;
+    letter-spacing: 10px;
   }
   
+  @media (max-width:800px){
+    .container h2{
+      font-size: 60px;
+      letter-spacing: 19px;
+      line-height: 35px;
+    }
+  
+    .container h2 span{
+      font-size: 26px;
+    }
+  }
+        
+  #purpleplanet {
+    width: 6.5vw;
+    height: auto;
+    left: 10vw;
+    top: 5vw;
+    -webkit-filter: drop-shadow(0px 0px 80px #e100ff);
+    filter: drop-shadow(0px 0px 80px #e100ff);
+  }
+
+  #earthplanet {
+    width: 6vw;
+    height: auto;
+    top: 43vh;
+    left: 15vw;
+    -webkit-filter: drop-shadow(0px 0px 80px #00ffdd);
+    filter: drop-shadow(0px 0px 80px #00ffd5);
+  }
+
+  #blueplanet {
+    width: 7vw;
+    height: auto;
+    left: 12vw;
+    top: 78vh;
+    -webkit-filter: drop-shadow(0px 0px 80px #0011ff);
+    filter: drop-shadow(0px 0px 80px #003cff);
+  }
+
+  #orangeplanet {
+    width: 8vw;
+    height: auto;
+    left: 82vw;
+    top: 12vh;
+    -webkit-filter: drop-shadow(0px 0px 80px #fbff00);
+    filter: drop-shadow(0px 0px 80px #ffe600);
+  }
+
+  #jupiterplanet {
+    width: 7vw;
+    height: auto;
+    left: 76vw;
+    top: 39vh;
+    -webkit-filter: drop-shadow(0px 0px 80px #ffbb00);
+    filter: drop-shadow(0px 0px 80px #ff9900);
+  }
 
 /* STARS SECTION */
 
 html {
+    z-index: 1;
     height: 100%;
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
     overflow: hidden;
