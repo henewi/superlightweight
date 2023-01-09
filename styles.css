@@ -3,7 +3,24 @@
     margin: 0;
 }
 
-/* TITLE SECTIO */
+/* PRELOADER SECTION */
+
+.wrapper {
+    position: fixed;
+    inset: 0;
+    z-index: 999;
+    background-color: rgb(3, 0, 17);
+    display: grid;
+    place-items: center;
+    transition: opacity .25s, visibility 1s;
+}
+
+.fade {
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* TITLE SECTION */
 
 .maintitle {
     display: flex;

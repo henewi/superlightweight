@@ -1,2 +1,9 @@
+// PRELOADER SECTION // 
 
-// MOUSE PARRALAX SECTION // 
+const fadeOut = () => {
+    const loaderWrapper =
+    document.querySelector('.wrapper');
+    loaderWrapper.classList.add('fade');
+}
+
+window.addEventListener('load', fadeOut);
