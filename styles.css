@@ -60,6 +60,7 @@ a {
 .contentschild {
     color: #07080c;
     transition: 0.5s;
+    margin-top: 1vh;
 }
 
 .contentschild:hover {
@@ -466,11 +467,23 @@ html {
   margin-top: 2vh;
   transition: 0.5s;
   z-index: 10;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .contentschild:hover {
   color: rgb(68, 66, 85);
   cursor: pointer;
+}
+
+
+.contentschild:focus {
+  outline: none !important;
 }
 
   .skycontcont {
