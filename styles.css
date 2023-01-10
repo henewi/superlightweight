@@ -460,6 +460,13 @@ html {
   left: 20vw;
   font-size: 4vh;
   font-weight: 300;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .contentschild {
@@ -483,6 +490,10 @@ html {
 
 
 .contentschild:focus {
+  outline: none !important;
+}
+
+.contents:focus {
   outline: none !important;
 }
 
