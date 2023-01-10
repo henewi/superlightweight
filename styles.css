@@ -434,9 +434,44 @@ html {
     scroll-behavior: smooth;
   }
 
-  .mainttitle {
+  .maintitle {
+    display: flex;
+    left: 24vw;
     position: fixed;
-  }
+    top: 13%;
+    font-size: 5vh;
+    font-weight: 900;
+    transition: 0.5s;
+}
+
+.maintitle:hover {
+    transform: scale(1.2);
+    cursor:default;
+}
+
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 37%;
+  z-index: 10;
+  left: 20vw;
+  font-size: 4vh;
+  font-weight: 300;
+}
+
+.contentschild {
+  color: #07080c;
+  margin-top: 2vh;
+  transition: 0.5s;
+  z-index: 10;
+}
+
+.contentschild:hover {
+  color: rgb(68, 66, 85);
+  cursor: pointer;
+}
 
   .skycontcont {
     overflow: hidden;
@@ -456,4 +491,61 @@ html {
     width: 100vw;
     height: auto;
 }
+
+#purpleplanet {
+  width: 7vh;
+  height: auto;
+  left: 10vw;
+  top: 8vw;
+  -webkit-filter: drop-shadow(0px 0px 80px #e100ff);
+  filter: drop-shadow(0px 0px 80px #e100ff);
+}
+
+#earthplanet {
+  width: 9vh;
+  height: auto;
+  top: 38vh;
+  left: -8vw;
+  -webkit-filter: drop-shadow(0px 0px 80px #00ffdd);
+  filter: drop-shadow(0px 0px 80px #00ffd5);
+}
+
+#blueplanet {
+  width: 10vh;
+  height: auto;
+  left: 10vw;
+  top: 72vh;
+  -webkit-filter: drop-shadow(0px 0px 80px #0011ff);
+  filter: drop-shadow(0px 0px 80px #003cff);
+}
+
+#orangeplanet {
+  width: 10vh;
+  height: auto;
+  left: 89vw;
+  transform: rotate(90deg);
+  top: 12vh;
+  -webkit-filter: drop-shadow(0px 0px 80px #fbff00);
+  filter: drop-shadow(0px 0px 80px #ffe600);
+}
+
+#jupiterplanet {
+  width: 12vh;
+  height: auto;
+  left: 70vw;
+  top: 85vh;
+  -webkit-filter: drop-shadow(0px 0px 80px #ffbb00);
+  filter: drop-shadow(0px 0px 80px #ff9900);
+}
+
+#pinkplanet {
+  width: 7vh;
+  height: auto;
+  left: 71vw;
+  z-index: 1;
+  top: 48vh;
+  -webkit-filter: drop-shadow(0px 0px 80px #ff00d4);
+  filter: drop-shadow(0px 0px 40px #ff0040);
+}
+
 }
