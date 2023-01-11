@@ -30,37 +30,22 @@ html {
 
 #title {
     position: absolute;
-    top: 50%;
-    left: 0;
-    right: 0;
     color: #FFF;
     text-align: center;
     font-family: "lato", sans-serif;
-    font-weight: 300;
-    font-size: 50px;
     letter-spacing: 10px;
-    margin-top: -60px;
-    padding-left: 10px;
-  }
-  #title span {
-    background: -webkit-linear-gradient(white, #38495a);
-    background-clip:text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    top: 20%;
+    left: 40%;
   }
 
 .maintitle {
-    display: flex;
-    position: fixed;
-    top: 13%;
-    left: 43%;
     font-size: 5vh;
     font-weight: 900;
     transition: 0.5s;
 }
 
 .maintitle:hover {
-    transform: scale(1.2);
+    transform: scale(1.2);  
     cursor:default;
 }
 
@@ -85,25 +70,31 @@ html {
   }
 
 .leftplanet {
+    margin: 0;
+    position: fixed;
+    top: 50vh;
+    left: -20vw;
     animation: 1s ease-out 0s 1 slideUp;
     -webkit-filter: drop-shadow(0px 0px 100px #ffffff);
     filter: drop-shadow(0px 0px 400px #00c3ff91);
 }  
 
 .leftplanetcont {
+    margin: 0;
     position: absolute;
-    margin-top: 40vh;
-    margin-left: -20vw;
 }
 
 .rightplanet {
+    margin: 0;
+    position: absolute;
+    top: -57vh;
+    left: 37vw;
     animation: 1s ease-out 0s 1 slideDown;
     -webkit-filter: drop-shadow(0px 0px 100px #ffffff);
     filter: drop-shadow(0px 0px 400px #00eeff91);
 }  
 
 .rightplanetcont {
+    margin: 0;
     position: absolute;
-    margin-top: -30vh;
-    margin-left: 75vw;
 }
