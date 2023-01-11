@@ -49,6 +49,29 @@ html {
     cursor:default;
 }
 
+/* MAIN WRITING */
+
+.contents {
+    display: flex;
+    position: fixed;
+    top: 37%;
+    z-index: 10;
+    left: 20vw;
+    font-size: 4vh;
+    font-weight: 300;
+    animation: fadeinLoad 1s 0.75s forwards;
+    opacity: 0;
+  }
+
+  @keyframes fadeinLoad {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
 /* PLANETS TRANSITION */
 
 @keyframes slideUp {
