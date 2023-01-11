@@ -5,7 +5,11 @@ html {
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
     overflow: hidden;
   }
-  
+
+a {
+    text-decoration: none;
+    color: white;
+}
 
 /* PRELOADER SECTION */
 
@@ -31,12 +35,19 @@ html {
 #title {
     z-index: 10;
     position: absolute;
-    color: #FFF;
+    color: #ffffff;
     text-align: center;
     font-family: "lato", sans-serif;
     letter-spacing: 10px;
     top: 20%;
     left: 40%;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
 
 .maintitle {
@@ -44,12 +55,20 @@ html {
     font-size: 5vh;
     font-weight: 900;
     transition: 0.5s;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .maintitle:hover {
     transform: scale(1.2);  
-    cursor:default;
+    cursor: pointer;
 }
+
 
 /* MAIN WRITING */
 
@@ -104,6 +123,7 @@ html {
   }
 
 .leftplanet {
+    z-index: 3;
     margin: 0;
     position: fixed;
     top: 50vh;
@@ -119,6 +139,7 @@ html {
 }
 
 .rightplanet {
+    z-index: 3;
     margin: 0;
     position: absolute;
     top: -57vh;
@@ -133,3 +154,5 @@ html {
     position: absolute;
 }
 
+/* BUTTON */
+  
