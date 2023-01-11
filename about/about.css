@@ -26,9 +26,47 @@ html {
 
 /* MAIN */ 
 
-/* ROCKET TRANSITION */
+/* TITLE */
 
-@keyframes slideInFromLeft {
+#title {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: "lato", sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    letter-spacing: 10px;
+    margin-top: -60px;
+    padding-left: 10px;
+  }
+  #title span {
+    background: -webkit-linear-gradient(white, #38495a);
+    background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+.maintitle {
+    display: flex;
+    position: fixed;
+    top: 13%;
+    left: 43%;
+    font-size: 5vh;
+    font-weight: 900;
+    transition: 0.5s;
+}
+
+.maintitle:hover {
+    transform: scale(1.2);
+    cursor:default;
+}
+
+/* PLANETS TRANSITION */
+
+@keyframes slideUp {
     0% {
       transform: translateY(100%);
     }
@@ -37,6 +75,35 @@ html {
     }
   }
 
-.rocket {
-    animation: 1s ease-out 0s 1 slideInFromLeft;
+  @keyframes slideDown {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+.leftplanet {
+    animation: 1s ease-out 0s 1 slideUp;
+    -webkit-filter: drop-shadow(0px 0px 100px #ffffff);
+    filter: drop-shadow(0px 0px 400px #00c3ff91);
 }  
+
+.leftplanetcont {
+    position: absolute;
+    margin-top: 40vh;
+    margin-left: -20vw;
+}
+
+.rightplanet {
+    animation: 1s ease-out 0s 1 slideDown;
+    -webkit-filter: drop-shadow(0px 0px 100px #ffffff);
+    filter: drop-shadow(0px 0px 400px #00eeff91);
+}  
+
+.rightplanetcont {
+    position: absolute;
+    margin-top: -30vh;
+    margin-left: 75vw;
+}
