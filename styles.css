@@ -635,6 +635,33 @@ html {
     -webkit-filter: drop-shadow(0px 0px 80px #ff00d4);
     filter: drop-shadow(0px 0px 40px #7b74be8c);
   }
+
+  .contentschild:focus {
+    outline: none !important;
+  }
+
+  .contents:focus {
+    outline: none !important;
+  }
+  .contents {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .contentschild {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
 }
 
 /* TABLET-IPAD PORTRAIT */
