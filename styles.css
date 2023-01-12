@@ -82,6 +82,8 @@ a {
 #horizonimg {
     width: 100vw;
     height: auto;
+    -webkit-filter: drop-shadow(0px 0px 80px #00ffdd);
+    filter: drop-shadow(0px 0px 200px rgba(0, 153, 255, 0.357));
 }
 
 /* MOUSE PARRALAX SECTION */
