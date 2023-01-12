@@ -525,7 +525,7 @@ html {
   width: 12vh;
   height: auto;
   top: 34vh;
-  left: -6vw;
+  left: -11vw;
   -webkit-filter: drop-shadow(0px 0px 80px #00ffdd);
   filter: drop-shadow(0px 0px 60px #ffffff5b);
 }
@@ -554,7 +554,7 @@ html {
   left: 40vw;
   top: 70vh;
   -webkit-filter: drop-shadow(0px 0px 80px #ffbb00);
-  filter: drop-shadow(0px 0px 80px #ffffff62);
+  filter: drop-shadow(0px 0px 200px #ffffff);
 }
 
 #pinkplanet {
