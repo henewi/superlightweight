@@ -513,51 +513,52 @@ html {
 }
 
 #purpleplanet {
-  width: 7vh;
+  width: 17vh;
   height: auto;
-  left: 10vw;
-  top: 5vw;
+  left: -8vw;
+  top: -7vh;
   -webkit-filter: drop-shadow(0px 0px 80px #e100ff);
   filter: drop-shadow(0px 0px 60px #e100ff7c);
 }
 
 #earthplanet {
-  width: 6.5vh;
+  width: 12vh;
   height: auto;
-  top: 38vh;
-  left: 17vw;
+  top: 34vh;
+  left: -6vw;
   -webkit-filter: drop-shadow(0px 0px 80px #00ffdd);
   filter: drop-shadow(0px 0px 60px #ffffff5b);
 }
 
 #blueplanet {
-  width: 7vh;
+  width: 17vh;
   height: auto;
-  left: 10vw;
-  top: 72vh;
+  left: 25vw;
+  top: 82vh;
   -webkit-filter: drop-shadow(0px 0px 80px #0011ff);
   filter: drop-shadow(0px 0px 80px #003cff);
 }
 
 #orangeplanet {
-  width: 8vh;
+  width: 14vh;
   height: auto;
-  left: 82vw;
+  left: 84vw;
   top: 12vh;
   -webkit-filter: drop-shadow(0px 0px 80px #fbff00);
   filter: drop-shadow(0px 0px 80px #f39cff85);
 }
 
 #jupiterplanet {
-  width: 17vh;
+  width: 40vh;
   height: auto;
-  left: 70vw;
-  top: 65vh;
+  left: 40vw;
+  top: 70vh;
   -webkit-filter: drop-shadow(0px 0px 80px #ffbb00);
   filter: drop-shadow(0px 0px 80px #ffffff62);
 }
 
 #pinkplanet {
+  visibility: hidden;
   width: 5.5vh;
   height: auto;
   left: 71vw;
