@@ -46,10 +46,11 @@ a {
     display: flex;
     position: fixed;
     top: 13%;
-    left: 43%;
+    left: 43.5%;
     font-size: 5vh;
-    font-weight: 900;
+    font-weight: 200;
     transition: 0.5s;
+    
 }
 
 .maintitle:hover {
@@ -60,11 +61,12 @@ a {
 /* CONTENTS SECTION */
 
 .contents {
+    z-index: 999;
     display: flex;
     flex-direction: column;
     position: fixed;
     top: 37%;
-    left: 40.5%;
+    left: 42%;
     font-size: 5vh;
 }
 
@@ -295,7 +297,7 @@ html {
     right: 0;
     color: #FFF;
     text-align: center;
-    font-family: "lato", sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 300;
     font-size: 50px;
     letter-spacing: 10px;
