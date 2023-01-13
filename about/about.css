@@ -30,6 +30,8 @@ a {
 
 /* MAIN */ 
 
+
+
 /* TITLE */
 
 #title {
@@ -162,28 +164,35 @@ a {
   position: absolute;
   display: flex;
   top: 51vh;
-  left: -1.7vw;
+  left: -3.3vw;
   font-size: 2.5vh;
 }
 
 .button1 {
   margin: 1vw;
-  width: 9vw;
+  width: 11.8vw;
   border: 1px solid rgb(255, 130, 151);
   padding: 1.5vh;
   transition: 0.5s;
+  background: none;
+  color: white;
+  font-size: 2.5vh;
+  letter-spacing: 0.5vw;
+  display: flex;
   animation: fadeinLoad 0.5s 2s forwards;
   opacity: 0;
 }
 
 .button2 {
   margin: 1vw;
-  width: 9vw;
+  width: 10vw;
   border: 1px solid rgb(255, 130, 151);
   padding: 1.5vh;
   transition: 0.5s;
   animation: fadeinLoad 0.5s 2.5s forwards;
   opacity: 0;
+  letter-spacing: 0.5vw;
+  font-size: 2.5vh;
 }
 
 .button2:hover {
