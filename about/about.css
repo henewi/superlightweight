@@ -216,6 +216,7 @@ a {
   width: 25vw;
   line-height: 2.5vh;
   letter-spacing: 0.2vw;
+  font-size: 2vh;
   opacity:0;
 }
 
@@ -326,6 +327,9 @@ a {
     left: 80vw;
     top: -30vh;
   }
+  .hiddentext {
+    max-width: 32vw;
+  }
 } 
 
 /* TABLET-IPAD PORTRAIT */
@@ -434,6 +438,7 @@ a {
   }
   .hiddentext {
     width: 400px;
+    max-width: 33vw;
   }
 }
 
