@@ -240,8 +240,8 @@ a {
 /* PHONES PORTRAIT */
 @media screen and (max-device-width: 480px) and (orientation: portrait) and (hover: none) and (pointer: coarse) {
   .leftplanet {
-    top: -30vh;
-    left: 100vh;
+    top: 84vh;
+    left: 0vh;
     max-width: 100vw;
   }
   .contents {
@@ -262,8 +262,43 @@ a {
   }
   #title {
     top: 15vh;
-    font-size: 1vh;
-    left: 10vw;
+    left: 13vw;
+  }
+  .maintitle {
+    font-size: 3.8vh;
+    align-items: center;
+  }
+  .contents {
+    top: 25vh;
+    left: 6vw;
+    max-width: 88vw;
+    min-width: 88vw;
+    font-size: 2.5vh;
+    letter-spacing: 0.5vh;
+  }
+  .buttonscont {
+    top: 45vh;
+    left: 15.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .button1 {
+    width: 40vw;
+    margin-bottom: 1.5vh;
+  }
+  .button2 {
+    width: 33vw;
+  }
+  .hiddentext {
+    top:10vh;
+    left: -4vw;
+    max-width: 81vw;
+    min-width: 81vw;
+    font-size: 1.7vh;
+    letter-spacing: 0.3vh;
   }
 }
 
