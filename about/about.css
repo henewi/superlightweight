@@ -158,6 +158,25 @@ a {
 
 /* BUTTON */
   
+/* PHONES PORTRAIT */
+@media screen and (max-device-width: 480px) and (orientation: portrait) and (hover: none) and (pointer: coarse) {
+
+}
+
+/* PHONES LANDSCAPE */
+@media (orientation: landscape) and (max-device-height: 480px) and (hover: none) and (pointer: coarse) {
+
+} 
+
+/* TABLET-IPAD PORTRAIT */
+@media screen and (min-device-width: 480px) and (orientation: portrait) and (hover: none) and (pointer: coarse) {
+
+}
+/* TABLET-IPAD LANDSCAPE */
+@media screen and (min-device-width: 480px) and (orientation: landscape) and (hover: none) and (pointer: coarse) {
+
+}
+
 /* STARS */
 
 .starscont {
@@ -208,22 +227,4 @@ a {
   to {
     transform: translateY(-2000px);
   }
-}
-
-/* PHONES LANDSCAPE */
-@media (orientation: landscape) and (max-device-height: 480px) and (hover: none) and (pointer: coarse) {
-
-} 
-/* PHONES PORTRAIT */
-@media screen and (max-device-width: 480px) and (orientation: portrait) and (hover: none) and (pointer: coarse) {
-
-}
-
-/* TABLET-IPAD PORTRAIT */
-@media screen and (min-device-width: 480px) and (orientation: portrait) and (hover: none) and (pointer: coarse) {
-
-}
-/* TABLET-IPAD LANDSCAPE */
-@media screen and (min-device-width: 480px) and (orientation: landscape) and (hover: none) and (pointer: coarse) {
-
 }
