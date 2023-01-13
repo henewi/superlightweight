@@ -793,4 +793,10 @@ html {
   .skycontcont {
     overflow: hidden;
   }
+  .maintitle {
+    left: 42vw;
+  }
+    .contents {
+      left: 39.5vw;
+    }
 }
