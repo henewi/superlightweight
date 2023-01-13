@@ -111,8 +111,6 @@ a {
 
   body{
     font-family: "Segoe UI", sans-serif;
-    background: url(bg.png)no-repeat;
-    background-size: cover;
     height: 100vh;
   }
   
