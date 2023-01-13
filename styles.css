@@ -457,7 +457,7 @@ html {
     position: fixed;
     top: 13%;
     font-size: 5vh;
-    font-weight: 900;
+    font-weight: 100;
     transition: 0.5s;
   }
 
@@ -597,7 +597,7 @@ html {
 
   .contentschild {
     margin-top: 20px;
-    font-weight: 900;
+    font-weight: 100;
   }
 
   #purpleplanet {
@@ -697,7 +697,7 @@ html {
     position: fixed;
     top: 40%;
     z-index: 10;
-    left: 30vw;
+    left: 32vw;
     font-size: 4vh;
     font-weight: 300;
     -webkit-tap-highlight-color: transparent;
@@ -728,7 +728,7 @@ html {
     position: fixed;
     top: 16%;
     font-size: 5vh;
-    font-weight: 900;
+    font-weight: 100;
     transition: 0.5s;
   }
 
