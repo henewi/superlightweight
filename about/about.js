@@ -10,15 +10,16 @@ window.addEventListener('load', fadeOut);
 
 // UNHIDE //
 
-function showHideDiv(ele) {
-    var srcElement = document.getElementById(ele);
-    if (srcElement != null) {
-        if (srcElement.style.display == "block") {
-            srcElement.style.display = 'none';
-        }
-        else {
-            srcElement.style.display = 'block';
-        }
-        return false;
-    }
-}
+var div = document.querySelector(".hiddentext");
+var btn = document.querySelector(".button1");
+btn.addEventListener("click", function(){
+  div.classList.add("elementToFadeInAndOut");
+});
+
+// HIDE //
+
+var div2 = document.querySelector(".contents");
+var btn = document.querySelector(".button1");
+btn.addEventListener("click", function(){
+  div2.classList.add("elementFadeOut");
+});

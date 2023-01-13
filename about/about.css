@@ -209,6 +209,34 @@ a {
 
 /* HIDDEN ABOUT */
 
+.hiddentext{
+  position: absolute;
+  top: 17vh;
+  left: -2.5vw;
+  width: 25vw;
+  line-height: 2.5vh;
+  letter-spacing: 0.2vw;
+  opacity:0;
+}
+
+.elementToFadeInAndOut {
+  animation: fadeIn 1s 0.5s linear forwards;
+}
+
+.elementFadeOut {
+  animation: fadeOut 0.5s linear forwards;
+}
+
+@keyframes fadeIn {
+0% { opacity:0; } 
+100% { opacity:1; } 
+}
+
+@keyframes fadeOut {
+0% {opacity:1;}
+100% {opacity:0;}
+}
+
 /* PHONES PORTRAIT */
 @media screen and (max-device-width: 480px) and (orientation: portrait) and (hover: none) and (pointer: coarse) {
 
