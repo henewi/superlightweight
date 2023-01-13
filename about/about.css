@@ -301,8 +301,11 @@ a {
 
 /* PHONES LANDSCAPE */
 @media (orientation: landscape) and (max-device-height: 480px) and (hover: none) and (pointer: coarse) {
+  #title {
+    top: 10vh;
+  }
   .contents {
-    top: 30vh;
+    top: 20vh;
     left: 29vw;
   }
   body {
