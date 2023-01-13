@@ -17,7 +17,7 @@ a {
     position: fixed;
     inset: 0;
     z-index: 999;
-    background-color: rgb(3, 0, 17);
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
     display: grid;
     place-items: center;
     transition: opacity .25s, visibility 1s;
