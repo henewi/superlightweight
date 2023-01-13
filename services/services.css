@@ -150,7 +150,16 @@ body{
 } 
 /* PHONES PORTRAIT */
 @media screen and (max-device-width: 480px) and (orientation: portrait) and (hover: none) and (pointer: coarse) {
-
+    .cardscont {
+        flex-direction: column;
+        width: 100vw;
+    }
+    .card {
+        width: 83vw;
+    }
+    .body {
+        overflow: scroll;
+    }
 }
 
 /* TABLET-IPAD PORTRAIT */
