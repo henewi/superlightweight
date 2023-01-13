@@ -461,12 +461,6 @@ html {
     transition: 0.5s;
   }
 
-  .maintitle:hover {
-      transform: scale(1.2);
-      cursor:default;
-  }
-
-
   .contents {
     display: flex;
     flex-direction: column;
@@ -690,6 +684,108 @@ html {
 /* TABLET-IPAD PORTRAIT */
 @media screen and (min-device-width: 480px) and (orientation: portrait) and (hover: none) and (pointer: coarse) {
 
+  #horizonimg {
+    opacity: 0;
+  }
+  .skycontcont {
+    overflow: hidden;
+  }
+
+  .contents {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 40%;
+    z-index: 10;
+    left: 30vw;
+    font-size: 4vh;
+    font-weight: 300;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .contentschild {
+    color: #07080c;
+    margin-top: 4vh;
+    transition: 0.5s;
+    z-index: 10;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .maintitle {
+    display: flex;
+    left: 33.5vw;
+    position: fixed;
+    top: 16%;
+    font-size: 5vh;
+    font-weight: 900;
+    transition: 0.5s;
+  }
+
+  #purpleplanet {
+    width: 38vw;
+    height: auto;
+    top: -10vh;
+    left: -10vw;
+    -webkit-filter: drop-shadow(0px 0px 80px #e100ff);
+    filter: drop-shadow(0px 0px 60px #e100ff7c);
+  }
+
+  #earthplanet {
+    width: 29vw;
+    height: auto;
+    top: 50vh;
+    left: -14vw;
+    -webkit-filter: drop-shadow(0px 0px 80px #00ffdd);
+    filter: drop-shadow(0px 0px 60px #ffffff5b);
+  }
+
+  #blueplanet {
+    width: 30vw;
+    height: auto;
+    left: 25vw;
+    top: 82vh;
+    -webkit-filter: drop-shadow(0px 0px 80px #0011ff);
+    filter: drop-shadow(0px 0px 80px #003cff);
+  }
+
+  #orangeplanet {
+    width: 19vw;
+    height: auto;
+    left: 84vw;
+    top: 12vh;
+    -webkit-filter: drop-shadow(0px 0px 80px #fbff00);
+    filter: drop-shadow(0px 0px 80px #f39cff85);
+  }
+
+  #jupiterplanet {
+    width: 45vw;
+    height: auto;
+    left: 69vw;
+    top: 65vh;
+    -webkit-filter: drop-shadow(0px 0px 80px #ffbb00);
+    filter: drop-shadow(0px 0px 200px #ffffff);
+  }
+
+  #pinkplanet {
+    visibility: hidden;
+    width: 5.5;
+    height: auto;
+    left: 71vw;
+    top: 37vh;
+    -webkit-filter: drop-shadow(0px 0px 80px #ff00d4);
+    filter: drop-shadow(0px 0px 40px #7b74be8c);
+  }
 }
 
 /* TABLET-IPAD LANDSCAPE */
