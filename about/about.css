@@ -240,7 +240,7 @@ a {
 /* PHONES PORTRAIT */
 @media screen and (max-device-width: 480px) and (orientation: portrait) and (hover: none) and (pointer: coarse) {
   .leftplanet {
-    top: 84vh;
+    top: 80vh;
     left: 0vh;
     max-width: 100vw;
   }
@@ -261,7 +261,7 @@ a {
     overflow: hidden;
   }
   #title {
-    top: 15vh;
+    top: 8vh;
     left: 13vw;
   }
   .maintitle {
