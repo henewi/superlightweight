@@ -301,7 +301,10 @@ a {
 
 /* PHONES LANDSCAPE */
 @media (orientation: landscape) and (max-device-height: 480px) and (hover: none) and (pointer: coarse) {
-
+  .contents {
+    top: 30vh;
+    left: 29vw;
+  }
 } 
 
 /* TABLET-IPAD PORTRAIT */
