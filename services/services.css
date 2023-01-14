@@ -154,17 +154,17 @@ body{
         top: -10vh;
     }
     .cardscont {
-        margin-top: 10vh;
+        margin-top: 8vh;
     }
     .asteroid {
-        top: 1vh;
+        top: 0vh;
         left: 12vw;
     }
     .planet {
-        top: 3vh;
+        top: 2vh;
     }
     .galaxy {
-        top: -5vh;
+        top: -6vh;
         left: 60vw;
     }
 } 
