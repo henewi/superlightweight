@@ -150,11 +150,11 @@ body{
         font-size: 2vh;
     }
     .card {
-        height: 65vh;
+        height: 63vh;
         top: -10vh;
     }
     .cardscont {
-        margin-top: 8vh;
+        margin-top: 7vh;
     }
     .asteroid {
         top: 0vh;
