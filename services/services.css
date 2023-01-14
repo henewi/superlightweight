@@ -81,6 +81,7 @@ body{
 }
 
 .card {
+    font-size: 1.8vh;
     z-index: 3;
     width: 22vw;
     margin: 30px;
@@ -260,7 +261,20 @@ body{
 }
 /* TABLET-IPAD LANDSCAPE */
 @media screen and (min-device-width: 480px) and (orientation: landscape) and (hover: none) and (pointer: coarse) {
-
+    .card {
+        width: 25vw;
+    }
+    .galaxy {
+        left: 62vw;
+        top: 12vh;
+    }
+    .planet {
+        top: 15vh;
+    }
+    .asteroid {
+        top: 15vh;
+        left: 10vw;
+    }
 }
 
 /* STARS */
