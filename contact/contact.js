@@ -7,3 +7,12 @@ const fadeOut = () => {
 }
 
 window.addEventListener('load', fadeOut);
+
+// EMAIL SENDING SECTION //
+
+$(document).ready(function () {
+    $('.submit').click(function (event) {
+        event.preventDefault()
+        console.log('CLICKED')
+    })
+})
