@@ -42,6 +42,7 @@ body{
     -webkit-filter: drop-shadow(0px 0px 80px #e100ff);
     filter: drop-shadow(0px 0px 100px #ffffff7c);
     overflow: hidden;
+    /* animation: 1s ease-out 0s 1 slideDown; */
 }
 
 .planet {
@@ -53,6 +54,7 @@ body{
     -webkit-filter: drop-shadow(0px 0px 80px #e100ff);
     filter: drop-shadow(0px 0px 100px #0044ff7c);
     overflow: hidden;
+    /* animation: 1s ease-out 0s 1 slideDown; */
 }
 
 .galaxy {
@@ -64,6 +66,7 @@ body{
     -webkit-filter: drop-shadow(0px 0px 80px #e100ff);
     filter: drop-shadow(0px 0px 200px #0044ff7c);
     overflow: hidden;
+    /* animation: 1s ease-out 0s 1 slideDown; */
 }
 
 .cardscont {
@@ -158,6 +161,17 @@ body{
 .price:hover {
     border: 1px solid white;
 }
+
+/* TRANSITIONS */
+
+@keyframes slideDown {
+    0% {
+      transform: translateY(-200%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
 
 /* PHONES LANDSCAPE */
 @media (orientation: landscape) and (max-device-height: 480px) and (hover: none) and (pointer: coarse) {
