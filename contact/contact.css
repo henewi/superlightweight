@@ -39,7 +39,7 @@ body{
 }
 
 .leftcard {
-    width: 30vw;
+    width: 25vw;
     padding: 3vw;
     margin: 3vw;
     background: rgba(255, 255, 255, 0.04);
@@ -52,7 +52,8 @@ body{
 }
 
 .rightcard {
-    width: 30vw;
+    width: 25vw;
+    height: 70vh;
     padding: 3vw;
     margin: 3vw;
     background: rgba(255, 255, 255, 0.04);
@@ -62,6 +63,10 @@ body{
     -webkit-backdrop-filter: blur(2px);
     transition: 0.5s;   
     z-index: 2;
+}
+
+.status {
+    position: absolute;
 }
 
 /* MAIL FORM */
@@ -80,6 +85,7 @@ body{
     border: 1px solid #00000000;
     transition: 0.5s;
     color: white;
+    font-weight: 100;
 }
 
 .email:focus {
@@ -92,10 +98,10 @@ body{
     margin-bottom: 1vh;
     border-radius: 100px;
     background: none;
-    border: none;
     border: 1px solid #00000000;
     transition: 0.5s;
     color: white;
+    font-weight: 100;
 }
 
 .subject:focus {
@@ -109,7 +115,6 @@ body{
     width: 27.8vw;
     border-radius: 2vw;
     background: none;
-    border: none;
     border: 1px solid #00000000;
     transition: 0.5s;
     color: white;
@@ -123,7 +128,6 @@ body{
     padding: 1vw;
     border-radius: 100px;
     background: none;
-    border: none;
     border: 1px solid #00000000;
     transition: 0.5s;
     color: white;
