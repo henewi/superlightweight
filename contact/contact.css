@@ -26,30 +26,111 @@ a {
 }
 
 body{
-    font-family: "Segoe UI", sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     height: 100vh;
     margin: 0;
-  }
+}
 
+/* MAIN SECTION */
+
+.maincont {
+    display: flex;
+    justify-content: center;
+}
+
+.leftcard {
+    width: 30vw;
+    padding: 3vw;
+    margin: 3vw;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    transition: 0.5s; 
+    z-index: 2;  
+}
+
+.rightcard {
+    width: 30vw;
+    padding: 3vw;
+    margin: 3vw;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    transition: 0.5s;   
+    z-index: 2;
+}
 
 /* MAIL FORM */
 
 .mailform {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
 }
 
 .email {
     padding: 1vw;
+    margin-bottom: 1vh;
+    width: 27.7vw;
+    border-radius: 100px;
+    background: none;
+    border: 1px solid #00000000;
+    transition: 0.5s;
+    color: white;
+}
+
+.email:focus {
+    border: 1px solid pink;
 }
 
 .subject {
     padding: 1vw;
+    width: 27.7vw;
+    margin-bottom: 1vh;
+    border-radius: 100px;
+    background: none;
+    border: none;
+    border: 1px solid #00000000;
+    transition: 0.5s;
+    color: white;
+}
+
+.subject:focus {
+    border: 1px solid pink;
 }
 
 .message {
     padding: 1vw;
+    margin-bottom: 1vh;
     resize: none;
+    width: 27.8vw;
+    border-radius: 2vw;
+    background: none;
+    border: none;
+    border: 1px solid #00000000;
+    transition: 0.5s;
+    color: white;
+}
+
+.message:focus {
+    border: 1px solid pink;
+}
+
+.submit {
+    padding: 1vw;
+    border-radius: 100px;
+    background: none;
+    border: none;
+    border: 1px solid #00000000;
+    transition: 0.5s;
+    color: white;
+}
+
+.submit:focus {
+    border: 1px solid pink;
 }
 
 /* PHONES LANDSCAPE */
