@@ -13,32 +13,36 @@
 <body>
 
 <!-- MAIL FORM  -->
+<div class="mailformcont">
+    <form class="mailform" action="https://formspree.io/f/mvongggd" method="post">
+        <label>
+            <input type="email" name="email" class="email" placeholder="YOUR EMAIL ADRESS">
+        </label>
+        <label>
+            <input type="text" name="subject" class="subject" placeholder="SUBJECT">
+        </label>
+        <label>
+            <textarea class="message" name="message" id="" cols="30" rows="10" placeholder="MESSAGE"></textarea>
+        </label>
+        <div class="status">
 
-<form action="https://formspree.io/f/mvongggd" method="post">
-    <label>
-        E-mail 
-        <input type="email" name="email" class="email">
-    </label>
-    <label>
-        Subject
-        <input type="text" name="subject" class="subject">
-    </label>
-    <label>
-        Message
-        <textarea class="message" name="message" id="" cols="30" rows="10"></textarea>
-    </label>
-    <div class="status">
-
-    </div>
-    <button type="submit" class="submit">Send</button>
-</form>
-
+        </div>
+        <button type="submit" class="submit">Submit</button>
+    </form>
+</div>
 <!-- PRELOADER SECTION -->
 
 <div class="wrapper">
     <div class="loader"></div>
    
 </div>
+
+<!-- STARS -->
+<div class="starscont">
+    <div id='stars'></div>
+    <div id='stars2'></div>
+    </div>   
+
 </body>
 <script src="contact.js"></script>
 </html>
